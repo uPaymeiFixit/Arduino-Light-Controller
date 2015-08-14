@@ -1,0 +1,43 @@
+{
+  "name": "arduino-light-controller",
+  "version": "0.0.0",
+  "description": "A node-based light controller for the Arduino and an RGB LED strip.",
+  "main": "main.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uPaymeiFixit/Arduino-Light-Controller.git"
+  },
+  "keywords": [
+    "arduino",
+    "light",
+    "controller",
+    "rgb",
+    "led",
+    "fft",
+    "beatdetect",
+    "serial"
+  ],
+  "author": "Josh Gibbs & Louis Orleans",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/uPaymeiFixit/Arduino-Light-Controller/issues"
+  },
+  "homepage": "https://github.com/uPaymeiFixit/Arduino-Light-Controller#readme",
+  "devDependencies": {
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.2.5",
+    "should": "^7.0.4",
+    "supertest": "^1.0.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-live-server": "0.0.23",
+    "gulp-rename": "^1.2.2",
+    "node-core-audio": "^0.5.0"
+  }
+}
